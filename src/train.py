@@ -28,4 +28,3 @@ def train_resnet18():
         print(f"Epoch {epoch+1} Loss: {loss.item()}")
 
     torch.save(model.state_dict(), "models/resnet18.pt")
-    print("Model saved!")
